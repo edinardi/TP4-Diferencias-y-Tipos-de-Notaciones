@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root text="Main" comment="" type="program" style="nice">
+ <children>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Elegir una de las siguientes categorias e ingresar el numero de la elegida: \n 1.Futbol \n 2.Espectaculo \n 3.Arte \n 4.Musica \n Para finalizar el juego ingresa el numero 0&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int a&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; a&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int c=0&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int r=0&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<while text="&#34;a !=0&#34;" comment="" color="FFFFFF">
+ <qWhile>
+
+<alternative text="a==1" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Cual es el mejor equipo del mundo?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;string r1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; r1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;r1 == &#34;&#34;Racing&#34;&#34;&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Aguante Racing genio, ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;No entendes nada de futbol, te resto un punto por amargo&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Donde se jugo el mundial de futbol del 86', donde la Argentina se consagro campeon?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;string r2&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; r2&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;r2 == &#34;&#34;Mexico&#34;&#34;&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Muy bien patriota, te ganaste el punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Seguro sos un aleman resentido, puntos menos para vos&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Contando la actual en curso, ¿Cuantas copas libertadores se Jugaron?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int r3&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; r3&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;r3 == 56&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Nuevo punto para vos&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Seguro nunca viste una libertadores, por eso perdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+ </qTrue>
+ <qFalse>
+
+<alternative text="a==2" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Cuantos son los integrantes de la familia Simpsons&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int s1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; s1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;s1 == 5&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Tu infancia ha sido muy buena, ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;no tuviste infancia, pierdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Cuantas peliculas de 'Rapido y Furioso' ya fueron estrenadas en el cine?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int s2&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; s2&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;s2 == 7&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Muy buenas peliculas, se nota que te gustan los autos, ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Definitivamente no te gusta el cine, pierdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿En que serie, el personaje principal se llama 'Walter White'?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;string s3&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="cin.get()" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;getline(cin,s3)&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;s3 == &#34;&#34;Breaking Bad&#34;&#34;&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Exelente serie, para verla millones de veces, te ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;No podes no haber visto esta serie, ya ponete a mirar 'Breaking Bad', perdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+ </qTrue>
+ <qFalse>
+
+<alternative text="a==3" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Cual es el rasgo principal del arte de los ultimos tiempos?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;string o1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="cin.get()" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;getline(cin,o1)&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;o1 == &#34;&#34;Su Des-definicion&#34;&#34;&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Respuesta correcta, ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Respuesta incorrecta, pierdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r= r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Quien hizo 'roue de bicyclette' en 1913?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;string o2&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="cin.get()" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;getline(cin,o2)&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;o2 == &#34;&#34;Marcel Duchamp&#34;&#34;&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Muy bien con el arte, ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Perdiste el punto, el arte no es lo tuyo&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Quien Hizo el cuadro llamado 'La Musica' en 1910?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;string o3&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="cin.get()" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;getline(cin,o3)&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;o3 == &#34;&#34;Henri Matisse&#34;&#34;&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Mucha historia del arte en tu cabeza, ganas un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Elige otra tematica porque el arte te mato, pierdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+ </qTrue>
+ <qFalse>
+
+<alternative text="a==4" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Cual es la banda de Rock Nacional liderada por su cantante Gustavo Napoli?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;string p1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="cin.get()" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;getline(cin,p1)&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;p1 == &#34;&#34;La Renga&#34;&#34;&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Muy buena banda, una de las mejores de la Argentina, ganas un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Seguro te gusta Arjona, pierdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Cuantos discos crearon los integrantes de la banda 'Patricio rey y sus redonditos de ricota'?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int p2&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; p2&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;p2 == 10&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Muy bien ricotero, ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Es hora de que empieces a escuchar buena musica, pierdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;¿Cuantos son los integrantes de la banda nacional 'Carajo'?&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;int p3&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; p3&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<alternative text="&#34;p3 == 3&#34;" comment="" color="FFFFFF">
+ <qTrue>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Te gusta la buena musica, ganaste un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Se ve que no conoces la banda, ponetela a escuchar ya, pierdes un punto&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;c = c-1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;r = r+1&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;El numero ingresado no corresponde a ninguna tematica&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qFalse>
+</alternative>
+ </qFalse>
+</alternative>
+ </qFalse>
+</alternative>
+ </qFalse>
+</alternative>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Elegir una de las siguientes categorias e ingresar el numero de la elegida: \n 1.Futbol \n 2.Espectaculo \n 3.Arte \n 4.Musica \n Para finalizar el juego ingresa el numero 0&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+<instruction text="&#34;cin &#62;&#62; a;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </qWhile>
+</while>
+<instruction text="&#34;cout &#60;&#60; &#34;&#34;Su puntuacion es de &#34;&#34; &#60;&#60; c &#60;&#60; &#34;&#34;puntos, en &#34;&#34; &#60;&#60; r &#60;&#60; &#34;&#34;preguntas contestadas&#34;&#34;&#34;" comment="" color="FFFFFF" rotated="0"></instruction>
+ </children>
+</root>
